@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header {
+    background-color: rgba(229, 84, 115, 0.1);
+    padding: 5px;
+    margin-bottom: 178px;
+}
+
+
+/* shared css */
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.nav-image img {
+    width: 100%;
+}
+
+.nav-title {
+    width: 254px;
+    font-weight: bold;
+}
+
+.nav-des {
+    width: 710px;
+}
+
+
+/* featured flower section design start */
+
+.sheared-section-title {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.shared-title {
+    font-weight: 900;
+    color: #272727;
+}
+
+.shared-description {
+    color: rgba(39, 39, 39, 0.6);
+    max-width: 510px;
+    margin: auto;
+}
+
+.flower-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.flower-card {
+    max-width: 400px;
+    padding: 5px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+.flower-card img {
+    width: 200px;
+}
+
+.flower-card-container a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+/* delevery section design */
+
+.delivery-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.delivery-section img {
+    width: 50px;
+}
+
+/* parcentege devide section design */
+
+.hot-deal-section {
+       background-color: rgba(229, 84, 115, 0.1);
+       padding: 100px 20px;
+}
+
+.deal-information {
+    text-align: center;
+
+}
+
+
+.off-color {
+    color: #E55473;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 640px) {
+
+    .max-width {
+        width: 100%;
+    }
+
+    .nav-image img {
+        width: 100%;
+    }
+
+    .nav-title {
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .nav-des {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    /* flower card */
+    .flower-card-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .flower-card {
+
+        width: 80%;
+        margin: auto;
+
+    }
+
+    /* delevery section design */
+    .delivery-section {
+        flex-direction: column;
+    }
+
+}
+
+/* medium device responsive */
+@media screen and (min-width:641) and (max-width:992) {
+
+    .nav-info,
+    .nav-image {
+        width: 50%;
+    }
+}
