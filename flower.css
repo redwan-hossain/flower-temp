@@ -171,6 +171,11 @@ img {
     max-width: 350px;
 }
 
+.singe-flower-card img{
+    width: 100%;
+}
+
+
 /* mobile responsive */
 
 @media screen and (max-width: 640px) {
