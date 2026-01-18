@@ -214,15 +214,39 @@ img {
 }
 
 
-
-
-
 .latest-input-filed input {
     padding: 20px 10px;
     border: none;
     border-radius: 8px;
     width: 100%;
 }
+
+/* footer design */
+
+.footer {
+    background-color: #111010;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 140px;
+
+}
+
+.footer-desc {
+    max-width: 500px;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.footer-flower {
+    color: #E55473;
+}
+
+.footer-reserve {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+}
+
 /* mobile responsive */
 
 @media screen and (max-width: 640px) {
