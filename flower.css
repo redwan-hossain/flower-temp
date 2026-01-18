@@ -168,9 +168,56 @@ img {
 }
 
 .singe-flower-card {
+   .singe-flower-card {
+    width: 100%;
     max-width: 350px;
+    justify-self: center;
 }
 
+}
+
+.singe-flower-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* <!-- latest deal section design --> */
+
+
+.lates-deal{
+   position: relative;
+   width: fit-content;
+}
+
+.latest-deal-title{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.deal-title{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.latest-deal-desc{
+    color: rgba(39, 39, 39, 0.6);
+}
+
+
+
+
+
+.latest-input-filed input {
+    padding: 20px 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
 /* mobile responsive */
 
 @media screen and (max-width: 640px) {
@@ -214,6 +261,22 @@ img {
     .delivery-section {
         flex-direction: column;
     }
+
+    .latest-deal-title{
+        width: 100%;
+    }
+
+    .latest-deal-title{
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left:0%;
+}
+
+.latest-input-filed input {
+    padding: 10px 0px;
+   
+}
 
 }
 
